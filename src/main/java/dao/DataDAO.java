@@ -1,5 +1,7 @@
 package dao;
 
+import entity.SearchResult;
+
 public interface DataDAO {
-    void getData();
+    SearchResult getData();
 }
