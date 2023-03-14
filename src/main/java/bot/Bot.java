@@ -9,7 +9,7 @@ import command.Service;
 
 public class Bot {
 
-    private final TelegramBot bot = new TelegramBot(System.getenv("TEST_BOT_TOKEN"));
+    private final TelegramBot bot = new TelegramBot(System.getenv("BOT_TOKEN_TEST"));
 
     public void serve() {
         bot.setUpdatesListener(updates -> {
